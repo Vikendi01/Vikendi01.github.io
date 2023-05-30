@@ -1,0 +1,169 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    background: -webkit-linear-gradient(#f98888,
+            #ff987d,
+            #ffab73,
+            #ffbf6c,
+            #ffd56c,
+            #ffd773,
+            #ffd97a,
+            #ffdb81,
+            #ffcc8f,
+            #ffc1a4,
+            #ffbbb9,
+            #ffb9cb);
+    background: radial-gradient(#f98888,
+            #ff987d,
+            #ffab73,
+            #ffbf6c,
+            #ffd56c,
+            #ffd773,
+            #ffd97a,
+            #ffdb81,
+            #ffcc8f,
+            #ffc1a4,
+            #ffbbb9,
+            #ffb9cb)
+}
+
+.container {
+    max-width: 960px;
+}
+
+form img {
+    height: 100px;
+    order: 1;
+}
+
+.text-box {
+    font-family: 'Montserrat', sans-serif;
+    transition: 1s;
+    position: relative;
+    text-align: center;
+}
+
+.text-box h1 {
+    z-index: 6;
+    font-size: 35px;
+    position: relative;
+    display: inline-block;
+    transition: 1.5s;
+    font-weight: 600;
+    margin: 100px 0 0;
+    background: #ffffff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+.logoImg {
+    margin-left: 15px;
+    width: 60px;
+    height: 60px;
+}
+
+.LogoGif {
+    margin-left: 2px;
+    width: 20px;
+    height: 20px;
+}
+
+h2 {
+    display: inline;
+    font-size: 20px;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, 0.075);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+}
+
+
+.letter {
+    background-color: white;
+}
+
+#wave {
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#wave svg path {
+    fill: #ffffff;
+}
+
+#wave2 svg path {
+    fill: #ffffff;
+}
+
+.circle2 {
+    position: relative;
+    z-index: 3;
+    float: right;
+    border-radius: 100% 0 0 100% / 50% 0 0 50%;
+    width: 70px;
+    height: 140px;
+    background: #ffb9cb;
+    box-shadow: inset 0px -40px 100px #ffd56c,
+        0px 60px 80px -30px rgba(0, 0, 0, 0.178);
+}
+
+.circle3 {
+    margin-left: 20px;
+    margin-top: -20px;
+    position: absolute;
+    z-index: 2;
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: #f3b184;
+    border-radius: 50%;
+    box-shadow: inset 0px -40px 60px #f98888,
+        0px 60px 80px -30px rgba(0, 0, 0, 0.178);
+}
+
+.circle4 {
+    margin-right: 20px;
+    position: relative;
+    z-index: 5;
+    float: right;
+    width: 70px;
+    height: 70px;
+    background: #ffdb81;
+    border-radius: 50%;
+    box-shadow: inset 0px -10px 25px #f8a0a0,
+        0px 100px 160px -30px rgba(0, 0, 0, 0.178);
+}
+
+.radio {
+    width: 100%;
+    margin: auto;
+}
+
+a {
+    display: block;
+    text-align: center;
+}
+
+.greeting {
+    display: block;
+    text-align: center;
+
+}
+
+.form_request {
+    background-color: #ffffff;
+}

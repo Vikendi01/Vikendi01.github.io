@@ -1,0 +1,199 @@
+:root {
+    --text-color: black;
+    --main-bg-color: radial-gradient(circle, #f98888, #ff987d, #ffab73, #ffbf6c, #ffd56c, #ffd773, #ffd97a, #ffdb81, #ffcc8f, #ffc1a4, #ffbbb9, #ffb9cb);
+    --bg-elem:#ffffff;
+    --bg-elem2: #ffffff00;
+}
+
+/* Класс, добавленный к элементу <html> */
+.dark-mode
+{
+    --text-color: #d3d3d3;
+    --main-bg-color: radial-gradient(circle, #171a1d, #171a1d);
+    --bg-elem:#212529;
+    --bg-elem2: #d3d3d3;
+}
+body
+{
+    /* background: #fff38f; */
+    background-image: var(--main-bg-color);
+    font-family: 'Montserrat', sans-serif;
+    color:var(--text-color);
+}
+.request {
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, 0.075);
+    background: var(--bg-elem);
+    margin: 15px 15px 15px 15px;
+    padding: 30px;
+    padding-bottom: 60px;
+    border-radius: 15px;
+}
+
+.header_logo
+{
+    padding-left:2%;
+}
+.header__logo
+{
+    position:relative;
+    width:75px;
+    height:75px;
+}
+
+.nav_button
+{
+    outline: none;
+    border: 0;
+    background: transparent;
+    color: var(--text-color);
+    transition: color 0.2s linear;
+    vertical-align: top;
+    margin: 0 10px;
+    padding: 15px;
+}
+
+.nav_button:hover
+{
+    color: #8b42dd;
+}
+
+.SubmitStatus {
+    visibility: hidden;
+}
+
+.logoImg
+{
+    margin-left: 15px;
+    width:50px;
+    height:50px;
+}
+
+.LogoGif
+{
+    margin-left: 2px;
+    width:20px;
+    height:20px;
+}
+
+h2
+{
+    display:inline;
+    font-size:20px;
+    color: black;
+}
+
+.btn
+{
+    font-size:18px;
+}
+
+header
+{
+    margin-bottom: 50px;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, 0.075);
+} 
+
+a
+{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+a:hover
+{
+    color: var(--text-color);
+}
+ .NoApplications
+{
+    text-align: center;
+    background-color: var(--bg-elem);
+    padding: 100px;
+    border-radius: 15px;
+}
+.three-dots
+{
+    float: right;
+}
+.geo
+{
+    width:15px;
+    height:15px;
+    margin-bottom:5px;
+    margin-right:10px;
+}
+
+.outputTime
+{
+    float:right;
+    word-spacing:10px;
+}
+.outputInfoApplication
+{
+    margin-top: 7px;
+    line-height: 2;
+}
+.outputTechInfo
+{
+    border-left: solid 2px var(--text-color);
+    padding-left: 15px;
+}
+.outputTechInfoHeader
+{
+    font-weight: 600;
+}
+.space
+{
+    word-spacing:25px;
+}
+.text-success
+{
+    fill: #8b42dd;
+}
+
+
+.images
+{
+    fill:var(--text-color);
+    width: 25px;
+    height: 25px;
+}
+.envelope
+{
+    float:right;
+    
+}
+.trash
+{
+    float: right; 
+}
+.imagesIcon
+{
+    float: left;
+}
+.imageSub
+{
+    margin: 0 20px 0 20px;
+}
+
+.OptionSelected {
+    background-color: rgba(123, 212, 96, 0.911);
+}
+.form-select{
+    background-color: var(--main-bg-color);
+    color:var(--text-color);
+}
+.navbar-brand{
+    background-color: var(--bg-elem2);
+    border-radius: 5px;
+    padding-right: 15px;
+}
+.NoApplications ,.NoApplications h2
+{
+    background-color: var(--bg-elem);
+    color: var(--text-color);
+}
+
+.NoApplications img
+{
+    border-radius: 5px;
+}
